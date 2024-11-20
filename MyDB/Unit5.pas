@@ -29,6 +29,7 @@ type
     procedure N6Click(Sender: TObject);
     procedure TPrihodClick(Sender: TObject);
     procedure N8Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -40,7 +41,7 @@ var
 
 implementation
 
-uses Unit1, Unit2, Postav, Prihod;
+uses Unit1, Unit2, Postav, Prihod, Zapros;
 
 {$R *.dfm}
 
@@ -72,6 +73,11 @@ end;
 procedure TForm5.N8Click(Sender: TObject);
 begin
 TPrihod.show();
+end;
+
+procedure TForm5.Button3Click(Sender: TObject);
+begin
+Tzapros.show();
 end;
 
 end.                                                                                                             ]=
