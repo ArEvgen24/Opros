@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 517
-  Top = 354
+  Left = 371
+  Top = 129
   Width = 1305
   Height = 675
   Caption = #1058#1086#1074#1072#1088#1099
@@ -65,13 +65,14 @@ object Form2: TForm2
       item
         Expanded = False
         FieldName = 'zena'
+        Width = 566
         Visible = True
       end>
   end
   object DBNavigator1: TDBNavigator
-    Left = 360
-    Top = 160
-    Width = 330
+    Left = 96
+    Top = 424
+    Width = 1030
     Height = 25
     DataSource = DataSource1
     TabOrder = 1
